@@ -47,6 +47,7 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  msix: ^3.16.7
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -64,6 +65,14 @@ flutter:
       fonts:
         - asset: fonts/AbrilFatface-Regular.ttf
           weight: 700
+
+msix_config:
+  display_name: Reloj Mundial
+  publisher_display_name: AmorosLopezEduardo
+  identity_name: your.company.relojmundial
+  msix_version: 1.0.0.0
+  logo_path: assets/logo.png
+  capabilities: internetClient
 
   # To add assets to your application, add an assets section, like this:
   # assets:
